@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CEE6EF2B102E9200538546 /* coba_afl3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE6EE2B102E9200538546 /* coba_afl3App.swift */; };
+		04CEE6F12B102E9200538546 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE6F02B102E9200538546 /* ContentView.swift */; };
+		04CEE6F32B102E9400538546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEE6F22B102E9400538546 /* Assets.xcassets */; };
+		04CEE6F62B102E9400538546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CEE6F52B102E9400538546 /* Preview Assets.xcassets */; };
+		04CEE7002B102E9500538546 /* coba_afl3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE6FF2B102E9500538546 /* coba_afl3Tests.swift */; };
+		04CEE70A2B102E9500538546 /* coba_afl3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE7092B102E9500538546 /* coba_afl3UITests.swift */; };
+		04CEE70C2B102E9500538546 /* coba_afl3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEE70B2B102E9500538546 /* coba_afl3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CEE6FC2B102E9500538546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEE6E32B102E9100538546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEE6EA2B102E9200538546;
+			remoteInfo = coba_afl3;
+		};
+		04CEE7062B102E9500538546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEE6E32B102E9100538546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CEE6EA2B102E9200538546;
+			remoteInfo = coba_afl3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CEE6EB2B102E9200538546 /* coba_afl3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coba_afl3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEE6EE2B102E9200538546 /* coba_afl3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coba_afl3App.swift; sourceTree = "<group>"; };
+		04CEE6F02B102E9200538546 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04CEE6F22B102E9400538546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CEE6F52B102E9400538546 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04CEE6FB2B102E9500538546 /* coba_afl3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coba_afl3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEE6FF2B102E9500538546 /* coba_afl3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coba_afl3Tests.swift; sourceTree = "<group>"; };
+		04CEE7052B102E9500538546 /* coba_afl3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coba_afl3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CEE7092B102E9500538546 /* coba_afl3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coba_afl3UITests.swift; sourceTree = "<group>"; };
+		04CEE70B2B102E9500538546 /* coba_afl3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coba_afl3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CEE6E82B102E9200538546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEE6F82B102E9500538546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEE7022B102E9500538546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CEE6E22B102E9100538546 = {
+			isa = PBXGroup;
+			children = (
+				04CEE6ED2B102E9200538546 /* coba_afl3 */,
+				04CEE6FE2B102E9500538546 /* coba_afl3Tests */,
+				04CEE7082B102E9500538546 /* coba_afl3UITests */,
+				04CEE6EC2B102E9200538546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CEE6EC2B102E9200538546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CEE6EB2B102E9200538546 /* coba_afl3.app */,
+				04CEE6FB2B102E9500538546 /* coba_afl3Tests.xctest */,
+				04CEE7052B102E9500538546 /* coba_afl3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CEE6ED2B102E9200538546 /* coba_afl3 */ = {
+			isa = PBXGroup;
+			children = (
+				04CEE6EE2B102E9200538546 /* coba_afl3App.swift */,
+				04CEE6F02B102E9200538546 /* ContentView.swift */,
+				04CEE6F22B102E9400538546 /* Assets.xcassets */,
+				04CEE6F42B102E9400538546 /* Preview Content */,
+			);
+			path = coba_afl3;
+			sourceTree = "<group>";
+		};
+		04CEE6F42B102E9400538546 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04CEE6F52B102E9400538546 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04CEE6FE2B102E9500538546 /* coba_afl3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEE6FF2B102E9500538546 /* coba_afl3Tests.swift */,
+			);
+			path = coba_afl3Tests;
+			sourceTree = "<group>";
+		};
+		04CEE7082B102E9500538546 /* coba_afl3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CEE7092B102E9500538546 /* coba_afl3UITests.swift */,
+				04CEE70B2B102E9500538546 /* coba_afl3UITestsLaunchTests.swift */,
+			);
+			path = coba_afl3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CEE6EA2B102E9200538546 /* coba_afl3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEE70F2B102E9500538546 /* Build configuration list for PBXNativeTarget "coba_afl3" */;
+			buildPhases = (
+				04CEE6E72B102E9200538546 /* Sources */,
+				04CEE6E82B102E9200538546 /* Frameworks */,
+				04CEE6E92B102E9200538546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coba_afl3;
+			productName = coba_afl3;
+			productReference = 04CEE6EB2B102E9200538546 /* coba_afl3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CEE6FA2B102E9500538546 /* coba_afl3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEE7122B102E9500538546 /* Build configuration list for PBXNativeTarget "coba_afl3Tests" */;
+			buildPhases = (
+				04CEE6F72B102E9500538546 /* Sources */,
+				04CEE6F82B102E9500538546 /* Frameworks */,
+				04CEE6F92B102E9500538546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEE6FD2B102E9500538546 /* PBXTargetDependency */,
+			);
+			name = coba_afl3Tests;
+			productName = coba_afl3Tests;
+			productReference = 04CEE6FB2B102E9500538546 /* coba_afl3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CEE7042B102E9500538546 /* coba_afl3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CEE7152B102E9500538546 /* Build configuration list for PBXNativeTarget "coba_afl3UITests" */;
+			buildPhases = (
+				04CEE7012B102E9500538546 /* Sources */,
+				04CEE7022B102E9500538546 /* Frameworks */,
+				04CEE7032B102E9500538546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CEE7072B102E9500538546 /* PBXTargetDependency */,
+			);
+			name = coba_afl3UITests;
+			productName = coba_afl3UITests;
+			productReference = 04CEE7052B102E9500538546 /* coba_afl3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CEE6E32B102E9100538546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04CEE6EA2B102E9200538546 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					04CEE6FA2B102E9500538546 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 04CEE6EA2B102E9200538546;
+					};
+					04CEE7042B102E9500538546 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 04CEE6EA2B102E9200538546;
+					};
+				};
+			};
+			buildConfigurationList = 04CEE6E62B102E9100538546 /* Build configuration list for PBXProject "coba_afl3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CEE6E22B102E9100538546;
+			productRefGroup = 04CEE6EC2B102E9200538546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CEE6EA2B102E9200538546 /* coba_afl3 */,
+				04CEE6FA2B102E9500538546 /* coba_afl3Tests */,
+				04CEE7042B102E9500538546 /* coba_afl3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CEE6E92B102E9200538546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEE6F62B102E9400538546 /* Preview Assets.xcassets in Resources */,
+				04CEE6F32B102E9400538546 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEE6F92B102E9500538546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEE7032B102E9500538546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CEE6E72B102E9200538546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEE6F12B102E9200538546 /* ContentView.swift in Sources */,
+				04CEE6EF2B102E9200538546 /* coba_afl3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEE6F72B102E9500538546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEE7002B102E9500538546 /* coba_afl3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CEE7012B102E9500538546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEE70A2B102E9500538546 /* coba_afl3UITests.swift in Sources */,
+				04CEE70C2B102E9500538546 /* coba_afl3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CEE6FD2B102E9500538546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEE6EA2B102E9200538546 /* coba_afl3 */;
+			targetProxy = 04CEE6FC2B102E9500538546 /* PBXContainerItemProxy */;
+		};
+		04CEE7072B102E9500538546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CEE6EA2B102E9200538546 /* coba_afl3 */;
+			targetProxy = 04CEE7062B102E9500538546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04CEE70D2B102E9500538546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CEE70E2B102E9500538546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CEE7102B102E9500538546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coba_afl3/Preview Content\"";
+				DEVELOPMENT_TEAM = VHKSD665Y2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gwen.coba-afl3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CEE7112B102E9500538546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coba_afl3/Preview Content\"";
+				DEVELOPMENT_TEAM = VHKSD665Y2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gwen.coba-afl3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CEE7132B102E9500538546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHKSD665Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gwen.coba-afl3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coba_afl3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coba_afl3";
+			};
+			name = Debug;
+		};
+		04CEE7142B102E9500538546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHKSD665Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gwen.coba-afl3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coba_afl3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coba_afl3";
+			};
+			name = Release;
+		};
+		04CEE7162B102E9500538546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHKSD665Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gwen.coba-afl3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coba_afl3;
+			};
+			name = Debug;
+		};
+		04CEE7172B102E9500538546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHKSD665Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gwen.coba-afl3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coba_afl3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CEE6E62B102E9100538546 /* Build configuration list for PBXProject "coba_afl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEE70D2B102E9500538546 /* Debug */,
+				04CEE70E2B102E9500538546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEE70F2B102E9500538546 /* Build configuration list for PBXNativeTarget "coba_afl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEE7102B102E9500538546 /* Debug */,
+				04CEE7112B102E9500538546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEE7122B102E9500538546 /* Build configuration list for PBXNativeTarget "coba_afl3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEE7132B102E9500538546 /* Debug */,
+				04CEE7142B102E9500538546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CEE7152B102E9500538546 /* Build configuration list for PBXNativeTarget "coba_afl3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CEE7162B102E9500538546 /* Debug */,
+				04CEE7172B102E9500538546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CEE6E32B102E9100538546 /* Project object */;
+}
